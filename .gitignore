@@ -1,0 +1,91 @@
+# === Python ===
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === Node.js ===
+node_modules/
+npm-debug.log*
+
+# === R ===
+.Rhistory
+.Rapp.history
+.RData
+.Rproj.user/
+*.R
+*.rtf
+
+# === macOS ===
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Secrets & Credentials ===
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.secret
+*.json
+credentials.json
+secrets.json
+service-account*.json
+notes-for-analysis.md
+CLAUDE.md
+
+# === Project-specific exclusions ===
+China*s Global Public Diplomacy Indicators Dataset*/
+dataverse_files 3/panelmatch_python.py
+
+# === Large Data Files ===
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.tar.gz
+*.gz
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.sqlite
+*.db
+
+# === Large Binary / Media ===
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.pdf
+
+# === Checkpoints & Caches ===
+translation_checkpoint.json
+*.pickle
+*.pkl
+
+# === Compiled Files ===
+*.pyc
+*.pyo
+*.so
+*.o
